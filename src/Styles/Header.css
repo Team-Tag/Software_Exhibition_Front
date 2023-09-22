@@ -1,0 +1,51 @@
+.header{
+    height: 120px;
+    background-color: #293277;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* 보이는 화면 기준으로 하기 위해 fixed사용 */
+    position: fixed; 
+    top: 0;
+    transition: top 0.3s ease;
+    /* width: 100% */
+    left: 0;
+    right: 0;
+}
+.header-logo{
+    width : 250px;
+    height: 80px;
+    margin-left: 20px;
+}
+.header-menu{
+    display: flex;
+}
+.header-menu-item{
+    font-size: 18px;
+    margin-right: 42px;
+    
+    color : white;
+    font-family: "Gmarket Sans TTF";
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-menu-item2{
+    border: 2px solid #fff;
+    padding: 1px 24px;
+    border-radius: 28px;
+    display: inline-block;
+    margin-right: 42px;
+    
+    color: #fff;
+    font-family: "Gmarket Sans TTF";
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.scroll-down{
+    top: -120px;
+}
+
+.scroll-up{
+    top: 0;
+}
