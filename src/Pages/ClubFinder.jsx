@@ -28,8 +28,6 @@ function ClubFinder() {
             <h2>48개의 동아리 중 내게 맞는 동아리를 찾아보세요</h2>
             <div id="FindClub_btn" onClick={showModal}>START</div>
         </div>
-        <div className="">
-        </div>
         {modalOpen && 
         <div className="ClubFinder_modal" ref={outside} onClick={(e)=>{
           if(e.target===outside.current)closeModal();
@@ -38,9 +36,7 @@ function ClubFinder() {
             <div id="modal_header">내게 맞는 동아리 찾기
             </div>
             <div id="closeModal" onClick={closeModal} >❌</div>
-            <div id="modal_article">
-              <div>STEP {count}</div>
-              <h3>{count}번의 내용 설명</h3>
+            <div id="modal_article">  
               <Question count={count}/>
             </div>
             <div id="modal_btn">
