@@ -1,9 +1,19 @@
 import React from "react";
-
+import "../Styles/ClubInfo.css";
+import SyncedSliders from "../Components/SyncedSliders";
 function ClubInfo() {
     return (
-      <div>
-        <h2>동아리 소개 페이지입니다.</h2>
+      <div className="wrap">
+        <div className="content-wrap">
+          <div className="section1-wrap">
+              <SyncedSliders/>
+          </div>
+          <div className="section2-wrap">
+              
+          </div>
+
+        </div>
+        
       </div>
     );
   }

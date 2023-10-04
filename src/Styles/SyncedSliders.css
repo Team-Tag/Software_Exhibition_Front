@@ -1,0 +1,61 @@
+
+.slideMain-wrap{
+    height: 600px;
+}
+.slideThumbs-wrap{
+    height : 200px;
+}
+.container-wrap .typo-wrap{
+    color: #fff;
+    font-family: "Gmarket Sans TTF";
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 40px;
+}
+.slideMain-wrap .slick-slide > div{
+    width: 100%;
+    height: 350px;
+    margin-top: 200px;
+}
+.slick-slide .club-wrap{
+    display: flex;
+
+}
+.slideThumbs-wrap .slick-slide > div {
+    width: 200px; /* 원하는 너비로 조정 */
+    height: 150px; /* 원하는 높이로 조정 */
+    background-color: green;
+    border-radius: 15px;
+}
+.club-text{
+    text-align: left;
+    width: 500px;
+    padding-left: 100px;
+}
+.club-text .club-name{
+    color: #fff;
+    font-family: "Gmarket Sans TTF";
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 60px;
+    margin: 0px;
+}
+.club-text .club-title{
+    color: #fff;
+    font-family: "Gmarket Sans TTF";
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+}
+.club-wrap .club-info-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+
+}
+.club-wrap .club-info-wrap .club-img{
+    width: 600px;
+    height: 400px;
+    background-color: greenyellow;
+    border-radius: 15px;
+}

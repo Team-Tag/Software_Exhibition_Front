@@ -4,6 +4,8 @@ import '../Styles/Main.css';
 import main_model1 from '../media/model_main01.svg';
 import Footer from "../Components/Footer";
 import BoxMenu from "../Components/BoxMenu";
+import CenterSlider from "../Components/CenterSlide";
+
 function Main() {
   const [isTextVisible, setIsTextVisible] = useState(false);
   const [position, setPosition] = useState(0);
@@ -50,7 +52,11 @@ function Main() {
               <p style={{opacity: (position -1200)/100,}}>너의 동아리<br/>내가 찾아줄게</p>
             </div>
           </section>
-          <section className="main03"></section>
+          <section className="main03">
+            <div className="container-wrap">
+              <CenterSlider/>
+            </div>
+          </section>
           <section className="main04">
             <div className="boxmenu-wrap" style={{opacity: (position -2800)/100,}}>
               <BoxMenu 
@@ -65,7 +71,6 @@ function Main() {
               about="지도를 통해 궁금한 동아리의 동아리방을 확인 할 수 있어요"/>
               
             </div>
-            
           </section>
         </div>
         <Footer/>

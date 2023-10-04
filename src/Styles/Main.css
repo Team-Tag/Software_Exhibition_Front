@@ -18,10 +18,15 @@
 }
 .main03{
     height: 1000px;
+    background-color: white;
+}
+.main03 .container-wrap{
+    width: 100%;
+    height: 800px;
     background-color: #173CB5;
 }
 .main04{
-    height: 1000px;
+    height: 800px;
     background-color: white;
 }
 .typo-wrap{
