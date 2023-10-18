@@ -40,7 +40,7 @@ class SyncedSliders extends Component {
   
       return (
         
-        <div className="container-wrap">
+        <div className="SyncedSliders-container-wrap">
           <div className="typo-wrap">
               <h2>동아리 소개</h2>
             </div>

@@ -5,7 +5,10 @@
 .slideThumbs-wrap{
     height : 200px;
 }
-.container-wrap .typo-wrap{
+.SyncedSliders-container-wrap{
+    background-color: #293277;
+}
+.SyncedSliders-container-wrap .typo-wrap{
     color: #fff;
     font-family: "Gmarket Sans TTF";
     font-weight: bold;

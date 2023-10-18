@@ -9,7 +9,6 @@ import CenterSlider from "../Components/CenterSlide";
 function Main() {
   const [isTextVisible, setIsTextVisible] = useState(false);
   const [position, setPosition] = useState(0);
-
   function onScroll(){
     console.log(window.scrollY);
     setPosition(window.scrollY);
@@ -58,7 +57,7 @@ function Main() {
             </div>
           </section>
           <section className="main04">
-            <div className="boxmenu-wrap" style={{opacity: (position -2800)/100,}}>
+            <div className="boxmenu-wrap" style={{opacity: (position -2500)/100,}}>
               <BoxMenu 
               color="white" 
               width = "255px"
