@@ -1,0 +1,39 @@
+.AboutUs{
+    background-color: white;
+}
+.AboutUs h1{
+    font-size: 55px;
+    color:#293277;
+}
+.AboutUs_cardBundle{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.AboutUs_Card{
+    width: 17vw;
+    height: 17vw;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 30px;
+    border-radius: 20px;
+    border: 3px solid  #293277;;
+    /* position: relative; */
+
+    
+}
+.Member_face{
+    border-radius: 50%;
+    width: 14vw;
+    height: 14vw;
+    margin: 0 auto;
+    margin-top: 1.4vw;
+    background-image: url('../media/대성.jpg');
+    background-position:center;
+    background-size:cover;
+}

@@ -7,8 +7,7 @@ const Question=(props)=>{
     // const colorChange=useRef();
     const FirstQuestionName=['공연','스포츠','취미예술','학술','봉사','종교']
     const userSelectOn=(value)=>{
-        
-        FirstQuestionSelect.push(value)
+        FirstQuestionSelect.push(value);
         const selectIndex=FirstQuestionName.indexOf(value)
         const colorBundle=[...color];
         if(colorBundle[selectIndex]==="rgba(123, 123, 123, 0.27)"){
@@ -34,7 +33,6 @@ const Question=(props)=>{
         switch(props.count){
             case 1: 
              return(
-                    
                     <div>
                         <div className="Step_num">STEP 1 </div>
                         <h1 className="Step_question">선호하는 3개의 분야를 선택해주세요!</h1>
@@ -49,7 +47,6 @@ const Question=(props)=>{
                         {/* {FirstQuestionSelect.length()>2?<div>다음</div>:<div>못감</div>} */}
                     </div>
                 );
-                
             case 2:
                 return(
                     <div>
@@ -59,11 +56,11 @@ const Question=(props)=>{
                         <div className="Step1_card"  onClick={()=>userOnClick("공연")} style={{backgroundColor:color[0]}}>공연</div>
                             <div className="Step1_card" onClick={()=>userOnClick("스포츠")} style={{backgroundColor:color[1]}}>스포츠</div>
                             <div className="Step1_card" onClick={()=>userOnClick("취미예술")} style={{backgroundColor:color[2]}}>취미예술</div>
-                           
                         </div>
                     </div>
             );
-            case 3: return(
+            case 3: 
+            return(
                 <div>
                         <div className="Step_num">STEP 3 </div>
                         <h1 className="Step_question">3번질문 ㄱ</h1>
@@ -112,7 +109,7 @@ const Question=(props)=>{
                 </div>
             );
             case 7: return(
-                <div>
+                <div className="Finder_Result">
                     <div>당신에게 이런 동아리를 추천합니다.</div>
                     <h3>{props.count}번의 내용 설명</h3>
                     <div>case 1</div>
