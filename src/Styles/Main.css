@@ -1,0 +1,135 @@
+.main01{
+    height: 1400px;
+    position: relative;
+}
+.main01:after {
+    content: "";
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(23,60,181,1) 100%);
+}
+.main02{
+    height: 550px;
+    background-color: #173CB5;
+    
+}
+.main03{
+    height: 1000px;
+    background-color: white;
+}
+.main03 .container-wrap{
+    width: 100%;
+    height: 800px;
+    background-color: #173CB5;
+}
+.main04{
+    height: 800px;
+    background-color: white;
+}
+.typo-wrap{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(0);
+    white-space: nowrap;
+}
+
+.typo-wrap .type01 .fill{
+    position: relative;
+    transform: translateX(0) translateY(-6%);
+    width: 600px;
+    height: 220px;
+    background-image: url("../media/main01_typo01.svg");
+}
+.typo-wrap .type02 .fill{
+    position: relative;
+    transform: translateX(0) translateY(-40%);
+    width: 700px;
+    height: 400px;
+    background-image: url("../media/main01_typo02.svg");
+}
+.typo-wrap .type03 .fill{
+    position: relative;
+    transform: translateX(100%) translateY(-155%);
+    width: 500px;
+    height: 250px;
+    background-image: url("../media/main01_typo03.svg");
+}
+.typo-wrap .type04 .fill{
+    position: relative;
+    transform: translateX(-90%) translateY(-320%);
+    width: 170px;
+    height: 170px;
+    background-image: url("../media/main01_typo04.svg");
+}
+.model-wrap{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(10%);
+}
+.model-wrap .model img{
+    width: 1000px;
+    height: 1200px;
+    
+}
+
+
+.tit-wrap{
+    color : white;
+    font-family: "Gmarket Sans TTF";
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* CSS 파일 (예: Main.css) */
+@keyframes fadeInText {
+    0% {
+      opacity: 0;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(-50%);
+    }
+}
+/* 글자가 나타날 때 애니메이션 적용할 클래스 */
+/* 원하는 지속 시간 및 이징 함수로 설정 */
+.fade-in-text {
+  animation: fadeInText 0.5s ease-in-out;
+  
+}
+@keyframes fadeInModel{
+    0% {
+       
+        transform: translateX(0) translateY(10%);
+    }
+    100% {
+        
+        transform: translateX(-50%) translateY(10%);
+    }
+}
+.fade-in-model {
+    animation: fadeInModel 0.7s ease-in-out;
+    
+  }
+
+.tit-wrap{
+    padding-top: 150px;
+}
+.tit-wrap p{
+    font-size: 100px;
+    font-family: "Gmarket Sans TTF";
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin : 0;
+}
+.boxmenu-wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,67 @@
+
+.typo-wrap {
+    text-align: center; /* 텍스트를 가운데 정렬 */
+    /* margin-bottom: 20px; */
+}
+.slide-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+    height: 100vh; /* 화면 높이의 100%를 차지하도록 설정 */
+}
+.slide1-wrap{
+    width: 1000px;
+    margin-top: 100px;
+}
+.slide2-wrap{
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;   
+}
+
+.typo-wrap p{
+    font-size: 80px;
+    color : yellow;
+    font-family: "Gmarket Sans TTF";
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 5;
+
+}
+
+.slick-slider-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 500px;
+    position: relative;
+    /* margin-bottom: 20px; */
+    z-index: 1;
+}
+.slick-slider-bottom{
+    z-index: 2;
+}
+.slick-slider-top img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+}
+.slick-slider-bottom img{
+    height: 150px;
+    /* opacity: .8; */
+    transform: scale(.8);
+    transition: opacity .5s, transform .5s;
+    width: 220px;
+    border-radius: 10px;
+    z-index: 1;
+}
+.slick-center img {
+    opacity: 1;
+    transform: scale(1) translateY(-10%);
+    top : 0px;
+}

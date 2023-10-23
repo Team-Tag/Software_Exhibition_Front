@@ -4,6 +4,10 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
+<<<<<<< HEAD
+=======
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+>>>>>>> 81157a56b64c18c7d5e93b331db76622861f643a
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@ramonak/react-progress-bar": "^5.0.3",
@@ -14,9 +18,16 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0",
+<<<<<<< HEAD
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.9.0",
     "react-unity-webgl": "^9.4.3",
+=======
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "react-unity-webgl": "^9.4.3",
+    "slick-carousel": "^1.8.1",
+>>>>>>> 81157a56b64c18c7d5e93b331db76622861f643a
     "web-vitals": "^2.1.4"
   },
   "scripts": {
