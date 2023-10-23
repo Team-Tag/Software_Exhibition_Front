@@ -1,3 +1,6 @@
+
+
+
 import React from "react";
 import { useEffect, useState } from "react";
 import '../Styles/Main.css';
@@ -48,7 +51,7 @@ function Main() {
           </section>
           <section className="main02">
             <div className="tit-wrap">
-              <p style={{opacity: (position -1200)/100,}}>너의 동아리<br/>내가 찾아줄게</p>
+              <p style={{opacity: (position -875)/100,}}>너의 동아리<br/>내가 찾아줄게</p>
             </div>
           </section>
           <section className="main03">
