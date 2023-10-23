@@ -36,7 +36,7 @@ function SimpleSlide({ category , categoryAbout ,slideData}) {
           }, [modalOpen]);
 
         const handleOpenModal = (content, slideData, slideKey) => {
-            axios.get(`/api/getSlideContent/${slideKey}`)
+            axios.get(`/api/getSlideContent/${slideKey}?category=${category}`)
             .then(response => {
                 setModalContent(response.data.content);
             })
