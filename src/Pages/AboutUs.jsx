@@ -7,7 +7,7 @@ import menber01 from "../media/menber01.png";
 import menber02 from "../media/menber02.png";
 import menber03 from "../media/menber03.png";
 import menber04 from "../media/menber04.png";
-import menber05 from "../media/main03_model1.png";
+import menber05 from "../media/menber05.png";
 function AboutUs() {
   const frontData = [
     {
