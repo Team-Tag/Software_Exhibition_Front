@@ -36,12 +36,17 @@ function SimpleSlide({ category , categoryAbout ,slideData}) {
           }, [modalOpen]);
 
         const handleOpenModal = (content, slideData, slideKey) => {
-            axios.get(`/api/getSlideContent/${slideKey}?category=${category}`)
+            axios.get(`/api/getSlideContent/${category}/${slideKey}`)
             .then(response => {
                 setModalContent(response.data.content);
+                console.log(`분과 : ${category}`);
+                console.log(`key값 : ${slideKey}`);
             })
             .catch(error => {
+                console.log(`분과 : ${category}`);
+                console.log(`key값 : ${slideKey}`);
                 console.error('슬라이드 내용을 가져오는 중 오류 발생:', error);
+
             });
             
             setModalOpen(true);
@@ -72,13 +77,14 @@ function SimpleSlide({ category , categoryAbout ,slideData}) {
                         <div className="clubslide-slide">
                             <Slider {...settingsCategory}>
                                 {slideData.map((slide, index) => (
-                                <div className="clubslide-slieCard" key={index} onClick={() => handleOpenModal(slide.content)}>
+                                <div className="clubslide-slieCard" key={index} onClick={() => handleOpenModal(slide.content,slideData, index)}>
                                     <div className="clubslide-slieCard-img">
                                     <img src={slide.imageSrc} />
                                     </div>
                                     <div className="clubslide-slieCard-text">
                                     <h1>{slide.title}</h1>
                                     <p>{slide.content}</p>
+                                    <p>{index}</p>
                                     </div>
                                 </div>
                                 ))}

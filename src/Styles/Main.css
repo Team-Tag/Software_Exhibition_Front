@@ -17,14 +17,10 @@
     
 }
 .main03{
-    height: 1000px;
-    background-color: white;
-}
-.main03 .container-wrap{
-    width: 100%;
-    height: 800px;
+    height: 1500px;
     background-color: #173CB5;
 }
+
 .main04{
     height: 800px;
     background-color: white;
@@ -132,4 +128,126 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.model03-wrap{
+    width: 100%;
+    height: 100%;
+}
+.model03-model01{
+    position: relative;
+    transform: translateX(10%) translateY(-66%);
+    width: 800px;
+    height: 800px;
+    background-image: url("../media/main03_model01.svg");
+}
+.slide-box{
+    position: relative;
+    transform: translateX(70%) translateY(-540%);
+    width: 400px;
+    height: 300px;
+    background-color: red;
+    
+}
+.model03-model02{
+    position: relative;
+    transform: translateX(600%) translateY(-640%);
+    width: 100px;
+    height: 300px;
+    background-image: url("../media/main03_model02.svg");
+}
+.model03-model03{
+    position: relative;
+    transform: translateX(320%) translateY(-500%);
+    width: 380px;
+    height: 380px;
+    background-image: url("../media/main03_model03.svg");
+}
+/* 발자국css */
+.footprint-wrap{
+    width: 100%;
+    height: 1500px;
+}
+.footprint-wrap .footprint01{
+    position: relative;
+    transform: translateX(1600%) translateY(100%);
+    width: 40px;
+    height: 40px;
+    background-image: url("../media/발자국01.svg");
+}
+.footprint-wrap .footprint02{
+    position: relative;
+    transform: translateX(1500%) translateY(100%);
+    width: 40px;
+    height: 40px;
+    background-image: url("../media/발자국02.svg");
+}
+.footprint-wrap .footprint03{
+    position: relative;
+    transform: translateX(1100%) translateY(100%);
+    width: 50px;
+    height: 50px;
+    background-image: url("../media/발자국03.svg");
+}
+.footprint-wrap .footprint04{
+    position: relative;
+    transform: translateX(1020%) translateY(120%);
+    width: 50px;
+    height: 50px;
+    background-image: url("../media/발자국04.svg");
+}
+.footprint-wrap .footprint05{
+    position: relative;
+    transform: translateX(650%) translateY(150%);
+    width: 80px;
+    height: 55px;
+    background-image: url("../media/발자국05.svg");
+}
+.footprint-wrap .footprint06{
+    position: relative;
+    transform: translateX(520%) translateY(250%);
+    width: 130px;
+    height: 70px;
+    background-image: url("../media/발자국06.svg");
+}
+.footprint-wrap .footprint07{
+    position: relative;
+    transform: translateX(450%) translateY(150%);
+    width: 180px;
+    height: 100px;
+    background-image: url("../media/발자국07.svg");
+}
+.footprint-wrap .footprint08{
+    position: relative;
+    transform: translateX(680%) translateY(50%);
+    width: 150px;
+    height: 150px;
+    background-image: url("../media/발자국08.svg");
+}
+.footprint-wrap .footprint09{
+    position: relative;
+    transform: translateX(800%) translateY(0%);
+    width: 150px;
+    height: 150px;
+    background-image: url("../media/발자국09.svg");
+}
+.footprint-wrap .footprint10{
+    position: relative;
+    transform: translateX(800%) translateY(100%);
+    width: 150px;
+    height: 150px;
+    background-image: url("../media/발자국10.svg");
+}
+.footprint-wrap .footprint11{
+    position: relative;
+    transform: translateX(600%) translateY(100%);
+    width: 170px;
+    height: 170px;
+    background-image: url("../media/발자국11.svg");
+}
+.footprint-wrap .footprint12{
+    position: relative;
+    transform: translateX(400%) translateY(80%);
+    width: 200px;
+    height: 200px;
+    background-image: url("../media/발자국12.svg");
 }

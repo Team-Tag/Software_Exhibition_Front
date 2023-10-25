@@ -6,12 +6,12 @@
 .clubslide-box{
     width: 100vw;
     height: 250px;
-    /* background-color: darkcyan; */
     display: flex;
     flex-wrap: nowrap;
     align-items: flex-end;
     justify-content: flex-end;
 }
+
 .clubslide-slide{
     width: 80vw;
     position: relative;
