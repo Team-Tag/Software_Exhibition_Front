@@ -1,9 +1,14 @@
 .AboutUs{
     background-color: white;
+    text-align: center;
+
 }
 .AboutUs h1{
     font-size: 55px;
     color:#293277;
+    font-family: "Gmarket Sans TTF";
+    font-weight: bold;
+    text-decoration: none;
 }
 .AboutUs_cardBundle{
     width: 100%;
