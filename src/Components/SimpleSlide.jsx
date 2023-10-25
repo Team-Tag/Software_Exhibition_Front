@@ -39,8 +39,7 @@ function SimpleSlide({ category , categoryAbout ,slideData}) {
             axios.get(`/api/getSlideContent/${category}/${slideKey}`)
             .then(response => {
                 setModalContent(response.data.content);
-                console.log(`분과 : ${category}`);
-                console.log(`key값 : ${slideKey}`);
+                
             })
             .catch(error => {
                 console.log(`분과 : ${category}`);
