@@ -346,7 +346,7 @@ const academicClubs = [
     
                     break;
                 default:console.log("error");
-                break;;
+                break;
             }
         }
     };
