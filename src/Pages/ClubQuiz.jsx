@@ -50,20 +50,27 @@ const ClubQuiz=()=>{
         // 추가 질문들
         {
           key: 4,
-          question: "동아리 가입 목적은 무엇인가요?",
+          question: "당신은 지금 뮤지컬을 보고있습니다..",
           answers: [
-            { key: "41", text: "새로운 친구 사귀기", value: "make_friends" },
-            { key: "42", text: "취미 활동", value: "hobby" },
-            { key: "43", text: "기술 습득", value: "skill_acquisition" },
+            { key: "41", text: "나의 댄스DNA가 나를 자극한다." },//춤바람 유니콘
+            { key: "42", text: "악기를 다루는 모습에 감탄이 나온다."},//코다 먹메
+            { key: "43", text: "나도 나만의 음악을 만들어 보고 싶다고 생각한다." },//힙합피디
+            { key: "44",text:"멋진 작품에 들은 많은 사람들의 노력에 감탄한다."},//한림극회
+            { key: "45",text:"마이크를 잡고 노래하는 모습을 상상한다."},//두레박
+
           ],
         },
         {
           key: 5,
-          question: "어떤 활동을 주로 하고 싶나요?",
+          question: "누군가 당신에게 티켓을 선물한다면 받고싶은 티켓은 ?",
+          //당신 손아귀에 있는 종이,,,바로 티켓,,,그 티켓은 바로!!!!
           answers: [
-            { key: "51", text: "공연 또는 공연 참여", value: "performance" },
-            { key: "52", text: "봉사 활동", value: "volunteering" },
-            { key: "53", text: "대회 또는 경쟁 참여", value: "competition" },
+            { key: "51", text: "스우파 직관  티켓" },//춤바람 유니콘
+            { key: "52",text:"비긴어게인 버스킹 관람권"},//코다 먹메
+            { key: "53", text: "쇼미더머니 본선 관람권"},//힘팝피디
+            { key: "54", text: "현재 없어서 못 구한다는 대학로의 연극 티켓" },//한림극회
+            { key: "55",text:"예술의 전당에서 하는 클래식 공연 티켓 or 한국의 멋, 풍물놀이 티켓 "},//두래박
+
           ],
         },
         {
@@ -155,16 +162,13 @@ const ClubQuiz=()=>{
     //   // }
       
     // }, [cntQuizNum]);
-
     return(
         <div className="ClubFinder_wrap" >
             <div className="ClubFinder_box1">
-                
                 <h1>내게 맞는 동아리 찾기</h1>
                 <h2>48개의 동아리 중 내게 맞는 동아리를 찾아보세요</h2>
                 {/* <div  id="FindClub_btn"></div>             */}
                 <Link id="FindClub_btn"to="Question" smooth={true} duration={700}>START</Link>
-
             </div>
             <div name="Question" className="box2_article">
               <div >
@@ -176,10 +180,8 @@ const ClubQuiz=()=>{
                     <ProgressBar className='ProgressBar' completed={Math.floor(((cntQuizNum)/6)*100)}/>
                     <div className='Question_box'>
                         {(cntQuizNum<6 && cntQuizNum>-1) &&<svg onClick={clickBefore}  xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160zm352-160l-160 160c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L301.3 256 438.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0z"/></svg>                            }                            {(cntQuizNum<6 && cntQuizNum>-1) && 
-
                             <div className='Main_Question' key={quizSteps.cntQuizNum}>
                                 <h1>{quizSteps[cntQuizNum].question}</h1>
-                              
                                 <ul>
                                     {quizSteps[cntQuizNum].answers.map((answer,index)=>(
                                         <li  onClick={()=>handleClick(answer.key)} className={selectedItems===answer.key ? 'selected' : ''} key={index}>
@@ -187,9 +189,7 @@ const ClubQuiz=()=>{
                                         </li>
                                     ))}
                                 </ul>
-                                
                             </div>
-                            
                             }
                             {cntQuizNum===6 && 
                             <BestClub  selectedKey={selectedKey}/>

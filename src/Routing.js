@@ -3,9 +3,10 @@ import {Route, Routes } from 'react-router-dom';
 import Main from './Pages/Main';
 import AboutUs from './Pages/AboutUs';
 import ClubQuiz from './Pages/ClubQuiz';
-// import ClubFinder from './Pages/ClubFinder';
+// import ClubFinder from './Pages/ClubFindder';
 import ClubInfo from './Pages/ClubInfo';
 import ClubroomLocator from './Pages/ClubroomLocator';
+// import ClubFind from './Pages/ClubFind';
 function Routing() {
   return (
     <div className="App">
