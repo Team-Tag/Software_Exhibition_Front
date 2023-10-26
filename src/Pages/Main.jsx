@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import main_model1 from '../media/main01_model.svg';
 import Footer from "../Components/Footer";
 import BoxMenu from "../Components/BoxMenu";
+import ScrollUp from "../Components/ScrollUp";
 
 
 
@@ -60,7 +61,7 @@ function Main() {
               <div style={{opacity: (position -1850)/100,}} className="footprint02"></div>
               <div style={{opacity: (position -1900)/100,}} className="footprint03"></div>
               <div style={{opacity: (position -1950)/100,}} className="footprint04"></div>
-              <div style={{opacity: (position -2000)/100,}} className="footprint05"></div>
+              <div style={{opacity: (position -1960)/100,}} className="footprint05"></div>
               <div style={{opacity: (position -2100)/100,}} className="footprint06"></div>
               <div style={{opacity: (position -2150)/100,}} className="footprint07"></div>
               <div style={{opacity: (position -2200)/100,}} className="footprint08"></div>
@@ -70,7 +71,7 @@ function Main() {
               <div style={{opacity: (position -2450)/100,}} className="footprint12"></div>
               
               <div style={{opacity: (position -2470)/100,}}className="model03-model01"></div>
-              <div style={{opacity: (position -2050)/100,}}className="model03-model02"></div>
+              <div style={{opacity: (position -1980)/100,}}className="model03-model02"></div>
               <div style={{opacity: (position -2300)/100,}}className="model03-model03"></div>
               <div style={{opacity: (position -2480)/100,}}className="slide-box"></div>
             
@@ -96,6 +97,7 @@ function Main() {
               </Link>
             </div>
           </section>
+          <ScrollUp/>
         </div>
         <Footer/>
       </div>

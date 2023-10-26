@@ -3,6 +3,7 @@ import "../Styles/ClubInfo.css";
 import SyncedSliders from "../Components/SyncedSliders";
 import SimpleSlide from "../Components/SimpleSlide";
 import Footer from "../Components/Footer";
+import ScrollUp from "../Components/ScrollUp";
 
 function ClubInfo() {
   const slides = [
@@ -79,7 +80,7 @@ function ClubInfo() {
           </div>
           <Footer style={{ marginTop : "200px"}}/>
         </div>
-     
+        <ScrollUp/>
       </div>
     );
   }

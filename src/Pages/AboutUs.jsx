@@ -8,6 +8,7 @@ import menber02 from "../media/menber02.png";
 import menber03 from "../media/menber03.png";
 import menber04 from "../media/menber04.png";
 import menber05 from "../media/menber05.png";
+import ScrollUp from "../Components/ScrollUp";
 function AboutUs() {
   const frontData = [
     {
@@ -99,6 +100,7 @@ function AboutUs() {
               <Developer developerName={"게임 / Game"} developerColor={"#DB2D2D"} developerData={GameData}/>
             </div>
           </div>
+          <ScrollUp/>
         </div>
         <Footer/>
       </>
