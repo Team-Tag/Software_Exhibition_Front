@@ -2,7 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import '../Styles/Main.css';
 import { Link } from 'react-router-dom';
-import main_model1 from '../media/model_main01.svg';
+import main_model1 from '../media/main01_model.svg';
 import Footer from "../Components/Footer";
 import BoxMenu from "../Components/BoxMenu";
 
@@ -45,7 +45,7 @@ function Main() {
             </div>
             <div className={`model-wrap ${isTextVisible ? 'fade-in-model' : ''}`}>
               <div className="model">
-                <img src={main_model1}/>
+                <img src={main_model1} alt="메인모델"/>
               </div>
             </div>
           </section>
@@ -69,10 +69,10 @@ function Main() {
               <div style={{opacity: (position -2400)/100,}} className="footprint11"></div>
               <div style={{opacity: (position -2450)/100,}} className="footprint12"></div>
               
-              <div style={{opacity: (position -2500)/100,}}className="model03-model01"></div>
+              <div style={{opacity: (position -2470)/100,}}className="model03-model01"></div>
               <div style={{opacity: (position -2050)/100,}}className="model03-model02"></div>
               <div style={{opacity: (position -2300)/100,}}className="model03-model03"></div>
-              <div style={{opacity: (position -2500)/100,}}className="slide-box"></div>
+              <div style={{opacity: (position -2480)/100,}}className="slide-box"></div>
             
             </div>
             
