@@ -1,6 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import '../Styles/Main.css';
+import { Link } from 'react-router-dom';
 import main_model1 from '../media/model_main01.svg';
 import Footer from "../Components/Footer";
 import BoxMenu from "../Components/BoxMenu";
@@ -78,17 +79,21 @@ function Main() {
           </section>
           <section className="main04">
             <div className="boxmenu-wrap" style={{opacity: (position -3000)/100,}}>
-              <BoxMenu 
-              color="white" 
-              width = "255px"
-              title="나에게 맞는 동아리 찾기" 
-              about="준비된 질문을 통해 나에게 맞는 동아리를 추천 해드립니다."/>
-              <BoxMenu 
-              width = "200px"
-              color= "yellow" 
-              title="동아리방 찾기" 
-              about="지도를 통해 궁금한 동아리의 동아리방을 확인 할 수 있어요"/>
-              
+              <Link to="/ClubroomLocator">
+                <BoxMenu 
+                color="white" 
+                width = "255px"
+                title="나에게 맞는 동아리 찾기" 
+                about="준비된 질문을 통해 나에게 맞는 동아리를 추천 해드립니다." />
+              </Link>
+
+              <Link to="/ClubFinder">
+                <BoxMenu 
+                width = "200px"
+                color= "yellow" 
+                title="동아리방 찾기" 
+                about="지도를 통해 궁금한 동아리의 동아리방을 확인 할 수 있어요"/> 
+              </Link>
             </div>
           </section>
         </div>
