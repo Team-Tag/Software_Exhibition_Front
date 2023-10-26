@@ -62,6 +62,7 @@ function ClubInfo() {
     },
   ]
     return (
+
       <div className="ClubInfo-wrap">
         <div className="ClubInfo-content-wrap">
           <div className="section1-wrap">

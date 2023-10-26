@@ -1,0 +1,133 @@
+.ClubFinder_wrap{
+    /* margin-top:200px; */
+    padding-top: 50px;
+    z-index: 99;
+
+}
+.ClubFinder_box1{
+
+    margin: 0 auto;
+    width: 900px;
+    height: 600px;
+    padding: 50px;
+    top: -100px;
+
+    background-image: url("../media/madoung_finder.png");
+    background-position:100px -100px;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    
+}
+.ClubFinder_box1 h1{
+    font-size: 80px;
+    font-family: "Gmarket Sans TTF";
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+
+}
+.ClubFinder_box1 h2{
+    font-size: 30px;
+    color: rgb(243, 243, 243);
+    text-align: center;
+
+}
+
+#FindClub_btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 260px;
+    height: 100px;
+    line-height: 100px;
+    background-color: rgba(255, 255, 255, 0.707);
+    border: solid yellow 3px;
+    border-radius: 20px;
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+#FindClub_btn:hover{
+    background-color: rgba(255, 255, 255, 0.534);
+
+
+}
+.box2_article{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 100vh;
+    text-align: center;
+
+}
+.Question_Title{
+    display: inline-block;
+    height: 60px;
+    width: 800px;
+    line-height: 60px;
+    background-color: #293277;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    font-size: 35px;
+    font-family: "Gmarket Sans TTF";
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+.Question_box{
+    margin: 0 auto; 
+    height: 70vh;
+    width: 70vw;
+    /* padding: auto; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 10px; */
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border:solid #293277 3px;
+    border-radius: 30px;
+    padding: -100px;
+
+}
+.Question_box svg{
+    height: 40px;
+}
+.Main_Question{
+    height: 100%;
+    /* background-color: bisque; */
+}
+.Question_box ul{
+    width: 800px;
+}
+.Question_box li{
+    list-style-type: none;
+    display: inline-block;
+    width: 80%;
+    height: 50px;
+    line-height: 50px;
+    /* background-color: bisque; */
+    margin-top: 10px;
+    border:solid #293277 1px;
+    border-radius: 15px;
+}
+.Question_box li:hover{
+    background-color: rgb(240, 240, 240);
+}
+.Main_Question h1{
+    font-family: "Gmarket Sans TTF";
+    font-weight: 400;
+    text-decoration: none;
+}
+ul .selected{
+   background-color: rgb(233, 233, 233);
+   border:solid #293277 2px;
+    font-size: 17px;
+}
+.ProgressBar{
+    margin: 0 auto;
+    width: 60vw;
+}
