@@ -3,6 +3,7 @@ import "../Styles/ClubInfo.css";
 import SyncedSliders from "../Components/SyncedSliders";
 import SimpleSlide from "../Components/SimpleSlide";
 import Footer from "../Components/Footer";
+import ScrollUp from "../Components/ScrollUp";
 
 function ClubInfo() {
   const slides = [
@@ -68,7 +69,9 @@ function ClubInfo() {
             <SyncedSliders/>
           </div>
           <div className="section2-wrap">
-            <div className="ClubInfo-typo-wrap"><p>분과별 동아리</p></div>
+            <div className="ClubInfo-typo-wrap">
+              <p>분과별 동아리</p>
+            </div>
             <SimpleSlide className="category1" category="공연" categoryAbout = {"공연함"} slideData={slides} />
             <SimpleSlide className="category1" category="체육" categoryAbout = {"운동함"} slideData={slides2} />
             <SimpleSlide className="category1" category="취미예술" categoryAbout = {"예술적인 활동 함"} slideData={slides} />
@@ -76,9 +79,9 @@ function ClubInfo() {
             <SimpleSlide className="category1" category="봉사" categoryAbout = {"봉사함"} slideData={slides} />
             <SimpleSlide className="category1" category="종교" categoryAbout = {"종교활동함"} slideData={slides2} />
           </div>
-          <Footer/>
+          <Footer style={{ marginTop : "200px"}}/>
         </div>
-     
+        <ScrollUp/>
       </div>
     );
   }

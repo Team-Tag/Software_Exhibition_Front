@@ -74,7 +74,7 @@
     text-decoration: none;
     font-size: 40px;
 }
-.club-img{
+.club-img img{
     width: 350px;
     height: 250px;
 }
@@ -106,4 +106,8 @@
     font-weight: 600;
     text-decoration: none;
     font-size: 20px;
+}
+.boxmenu-wrap a{
+    text-decoration: none;
+    color : #173CB5;
 }

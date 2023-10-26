@@ -6,14 +6,28 @@
     height : 200px;
 }
 .SyncedSliders-container-wrap{
-    background-color: #293277;
-}
-.SyncedSliders-container-wrap .typo-wrap{
     color: #fff;
     font-family: "Gmarket Sans TTF";
     font-weight: bold;
     text-decoration: none;
-    font-size: 40px;
+    background-color: #293277;
+}
+.typo-wrap>.title-tag{
+    display: flex;
+    justify-content: center;
+}
+.typo-wrap>.title-tag p{
+    font-size: 15px;
+    padding: 10px;
+    background-color: white;
+    width: 150px;
+    border-radius: 10px;
+    color : #293277;
+    
+}
+.SyncedSliders-container-wrap .typo-wrap h2{
+    font-size: 60px;
+    margin-top: 10px;
 }
 .slideMain-wrap .slick-slide > div{
     width: 100%;
