@@ -10846,10 +10846,14 @@ var ASM_CONSTS = {
         element.style.paddingLeft = element.style.paddingRight = leftRight + 'px';
         element.style.paddingTop = element.style.paddingBottom = topBottom + 'px';
     }
+    function getBoundingClientRect(e) {
+      if (e && specialHTMLTargets.indexOf(e) < 0) {
+          return e.getBoundingClientRect();
+      } else {
+          return {'left': 0, 'top': 0};
+      }
+  }
   
-  function getBoundingClientRect(e) {
-      return specialHTMLTargets.indexOf(e) < 0 ? e.getBoundingClientRect() : {'left':0,'top':0};
-    }
   function _JSEvents_resizeCanvasForFullscreen(target, strategy) {
       var restoreOldStyle = registerRestoreOldStyle(target);
       var cssWidth = strategy.softFullscreen ? innerWidth : screen.width;
