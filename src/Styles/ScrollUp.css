@@ -6,15 +6,16 @@
   }
   #top{
     font-weight: bold;
-    font-size: 15px;
-    padding :15px 10px;
-    background-color: #000;
-    color:#fff;
-    border: 1px solid #000;
-    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    background-color: #c2c2c2;
+    border: 1px solid #c2c2c2;
+    border-radius: 10%;
     outline: none;
     cursor: pointer;
+    opacity: 80%;
   }
   #top:hover{
-    color : #173CB5;
+    opacity: 60%;
   }

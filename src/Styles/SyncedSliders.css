@@ -38,24 +38,20 @@
     display: flex;
 
 }
-.slideThumbs-wrap .slick-slide > div {
-    width: 200px; /* 원하는 너비로 조정 */
-    height: 150px; /* 원하는 높이로 조정 */
-    background-color: green;
-    border-radius: 15px;
-}
 .club-text{
     text-align: left;
     width: 500px;
     padding-left: 100px;
 }
 .club-text .club-name{
+    width: 100%;
     color: #fff;
     font-family: "Gmarket Sans TTF";
     font-weight: bold;
     text-decoration: none;
     font-size: 60px;
     margin: 0px;
+    
 }
 .club-text .club-title{
     color: #fff;
@@ -70,9 +66,11 @@
     margin: 0px 200px;
 
 }
-.club-wrap .club-info-wrap .club-img{
+
+.club-info-wrap .club-img img{
     width: 600px;
-    height: 400px;
+    height: 350px;
     background-color: greenyellow;
     border-radius: 15px;
+    
 }
