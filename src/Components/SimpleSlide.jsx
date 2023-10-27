@@ -35,15 +35,13 @@ function SimpleSlide({ category , categoryAbout ,slideData}) {
             }
           }, [modalOpen]);
 
-        const handleOpenModal = (content, slideData, slideKey) => {
-            axios.get(`/api/getSlideContent/${category}/${slideKey}`)
+        const handleOpenModal = (clubName) => {
+            axios.get(`/api/getSlideContent/${clubName}`)
             .then(response => {
                 setModalContent(response.data);
                 
             })
             .catch(error => {
-                console.log(`분과 : ${category}`);
-                console.log(`key값 : ${slideKey}`);
                 console.error('슬라이드 내용을 가져오는 중 오류 발생:', error);
 
             });
@@ -76,14 +74,13 @@ function SimpleSlide({ category , categoryAbout ,slideData}) {
                         <div className="clubslide-slide">
                             <Slider {...settingsCategory}>
                                 {slideData.map((slide, index) => (
-                                <div className="clubslide-slieCard" key={index} onClick={() => handleOpenModal(slide.content,slideData, index)}>
+                                <div className="clubslide-slieCard" key={index} onClick={() => handleOpenModal(slide.title)}>
                                     <div className="clubslide-slieCard-img">
-                                    <img src={slide.imageSrc} />
+                                        <img src={slide.imageSrc} alt="동아리사진"/>
                                     </div>
                                     <div className="clubslide-slieCard-text">
                                     <h1>{slide.title}</h1>
                                     <p>{slide.content}</p>
-                                    <p>{index}</p>
                                     </div>
                                 </div>
                                 ))}
@@ -124,7 +121,7 @@ function SimpleSlide({ category , categoryAbout ,slideData}) {
                                     <h2>회비</h2>
                                     <p>{modalContent.membershipFee}</p>
                                     <h2>위치</h2>
-                                    <p>{modalContent.location}</p>
+                                    <p>{modalContent.clubLocation}</p>
                                 </div> 
                                 </div>
                             </div>

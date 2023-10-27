@@ -8,7 +8,8 @@ import Routing from './Routing';
 function App() {
   const [scrollDirection, setScrollDirection] = useState('none');//스크롤 초기 상태 
   const [prevScrollY, setPrevScrollY] = useState(0); // 이전 스크롤 위치를 저장
-
+  const [isMenuChecked, setIsMenuChecked] = useState(false);
+  
   useEffect(() => {
     // 스크롤 이벤트 리스너 추가
     const handleScroll = () => {
@@ -24,6 +25,8 @@ function App() {
       } else if (currentScrollY > prevScrollY) {
         if (scrollDirection !== 'down') {
           setScrollDirection('down');
+          setIsMenuChecked(false);
+          console.log(`scroll is ${isMenuChecked}`);
           console.log("down");
         }
       } else {
@@ -53,7 +56,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         {/* Header의 props에 headerClasses를 매개 변수로 보냄 */}
-        <Header headerClassName={headerClasses} />
+        <Header headerClassName={headerClasses} isMenuChecked={isMenuChecked} handleMenuIconChange={setIsMenuChecked}/>
         <Routing />
       </div>
     </BrowserRouter>

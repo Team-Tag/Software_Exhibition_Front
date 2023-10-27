@@ -14,7 +14,7 @@ function Main() {
   const [isTextVisible, setIsTextVisible] = useState(false);
   const [position, setPosition] = useState(0);
   function onScroll(){
-    console.log(window.scrollY);
+    // console.log(window.scrollY);
     setPosition(window.scrollY);
   }
 
