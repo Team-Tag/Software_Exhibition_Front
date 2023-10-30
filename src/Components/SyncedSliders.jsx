@@ -21,7 +21,7 @@ class SyncedSliders extends Component {
     render() {
       const settingsMain = {
         infinite: true,
-        speed: 500,
+        speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
@@ -30,7 +30,7 @@ class SyncedSliders extends Component {
       const settingsThumbs = {
         
         infinite: true,
-        speed: 500,
+        speed: 300,
         slidesToShow: 7,
         slidesToScroll: 1,
         centerMode: true,

@@ -123,13 +123,11 @@ function ClubInfo() {
       content: "타로 동아리",
     },
     {
-      imageSrc: "/preparing_Image.png",
-      title: "CHAOS",
-      content: "스터디 동아리",
+      title: "카톨릭학생회",
+      content: "천주교 동아리",
     },
-    
-
   ]
+
   const volunteerClubs =[
     {
       imageSrc:"/volunteerClub/volunteerClub01.png",

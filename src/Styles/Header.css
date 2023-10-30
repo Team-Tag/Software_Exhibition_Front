@@ -1,103 +1,103 @@
 .header{
-    background-color: #293277;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* 보이는 화면 기준으로 하기 위해 fixed사용 */
-    position: fixed; 
-    top: 0;
-    transition: top 0.3s ease;
-    width: 100vw;
-    height: 15vh;
-    left: 0;
-    right: 0;
-    z-index: 100;
+  background-color: #293277;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* 보이는 화면 기준으로 하기 위해 fixed사용 */
+  position: fixed; 
+  top: 0;
+  transition: top 0.3s ease;
+  width: 100vw;
+  height: 15vh;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 @media screen and (max-width : 877px) {
-  .header{
-    height: 10vh;
-  }
+.header{
+  height: 10vh;
+}
 }
 .header-logo img{
-    width : 30%;
-    height: 10%;
-    margin-left: 2%;
-    margin-top : 2%;
+  width : 30%;
+  height: 10%;
+  margin-left: 2%;
+  margin-top : 2%;
 }
 .header-menu{
-    display: flex;
+  display: flex;
 }
 .header-menu-item{
-    font-size: 18px;
-    margin-right: 42px;
-    color : white;
-    font-family: "Gmarket Sans TTF";
-    font-weight: bold;
-    text-decoration: none;
+  font-size: 18px;
+  margin-right: 42px;
+  color : white;
+  font-family: "Gmarket Sans TTF";
+  font-weight: bold;
+  text-decoration: none;
 }
 .header-menu-item2{
-    border: 2px solid #fff;
-    padding: 1px 24px;
-    border-radius: 28px;
-    display: inline-block;
-    margin-right: 42px;
-    
-    color: #fff;
-    font-family: "Gmarket Sans TTF";
-    font-weight: bold;
-    text-decoration: none;
+  border: 2px solid #fff;
+  padding: 1px 24px;
+  border-radius: 28px;
+  display: inline-block;
+  margin-right: 42px;
+  
+  color: #fff;
+  font-family: "Gmarket Sans TTF";
+  font-weight: bold;
+  text-decoration: none;
 }
 @media screen and (max-width: 877px){
-  .header-menu > a{
-      display: none;
-  }  
+.header-menu > a{
+    display: none;
+}  
 }
 
 .scroll-down{
-    top: -120px;
+  top: -120px;
 }
 
 .scroll-up{
-    top: 0;
+  top: 0;
 }
 
 /* 햄버거 메뉴 */
 .menubar{
-    margin: 10px;
-    display: none;
+  margin: 10px;
+  display: none;
 }
 @media screen and (max-width: 877px){
-  .menubar{
-      display: block;
-  }  
+.menubar{
+    display: block;
+}  
 }
 
 input[id="menuicon"]{display: none;}
 input[id="menuicon"] + label{
-  display: block;
-  width: 30px;
-  height: 20px;
-  position: relative;
-  cursor: pointer;
+display: block;
+width: 30px;
+height: 20px;
+position: relative;
+cursor: pointer;
 }
 input[id="menuicon"] + label span{
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  border-radius: 10px;
-  background-color: white;
-  transition: all .35s;
+display: block;
+position: absolute;
+width: 100%;
+height: 3px;
+border-radius: 10px;
+background-color: white;
+transition: all .35s;
 }
 input[id="menuicon"] + label span:nth-child(1){
-  top:0;
+top:0;
 }
 input[id="menuicon"] + label span:nth-child(2){
-  top:50%;
-  transform: translateY(-50%);
+top:50%;
+transform: translateY(-50%);
 }
 input[id="menuicon"] + label span:nth-child(3){
-  bottom:0;
+bottom:0;
 }
 input[id="menuicon"]:checked + label{z-index:2;}
 input[id="menuicon"]:checked + label span:nth-child(1){top: 50%;transform: translateY(-50%) rotate(45deg);}
@@ -105,46 +105,46 @@ input[id="menuicon"]:checked + label span:nth-child(2){opacity: 0;}
 input[id="menuicon"]:checked + label span:nth-child(3){bottom: 50%;transform: translateY(50%) rotate(-45deg);}
 
 div[class="sideMenu"]{
-    width: 100%;
-    height: 200px;
-    position: fixed;
-    top : -200px;
-    right:0px;
-    z-index: -1;
-    transition: all .35s;
-    background: #293277;
-    
-    
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  top : -200px;
+  right:0px;
+  z-index: -1;
+  transition: all .35s;
+  background: #293277;
+  
+  
 }
 input[id="menuicon"]:checked + label + div{
-    top: 120px;
+  top: 120px;
 
-  }
-  input[id="menuicon"] + label{
-    display: block;
-    width: 40px;
-    height: 30px;
+}
+input[id="menuicon"] + label{
+  display: block;
+  width: 40px;
+  height: 30px;
 
-    transition: all .35s;
-    cursor: pointer;
-  }
-  input[id="menuicon"]:checked+label{
-    z-index: 2;
-    
-  }
-  #sideMenu-ul{
-    list-style: none;
-    border-bottom: #fff;
-  }
-  #slideMenu-ul li{
-    border-bottom: solid;
-  }
-  .side-menu-item{
-    font-size: 18px;
-    text-decoration: none;
-    text-align: center;
-    color : white;
-    font-family: "Gmarket Sans TTF";
-    font-weight: bold;
-    
+  transition: all .35s;
+  cursor: pointer;
+}
+input[id="menuicon"]:checked+label{
+  z-index: 2;
+  
+}
+#sideMenu-ul{
+  list-style: none;
+  border-bottom: #fff;
+}
+#slideMenu-ul li{
+  border-bottom: solid;
+}
+.side-menu-item{
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color : white;
+  font-family: "Gmarket Sans TTF";
+  font-weight: bold;
+  
 }

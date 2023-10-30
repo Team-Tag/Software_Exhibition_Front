@@ -80,12 +80,12 @@ function Main() {
           </section>
           <section className="main04">
             <div className="boxmenu-wrap" style={{opacity: (position -3000)/100,}}>
-              <Link to="/ClubFinder">
+              <Link to="/ClubInfo">
                 <BoxMenu 
                 color="white" 
                 width = "255px"
-                title="나에게 맞는 동아리 찾기" 
-                about="준비된 질문을 통해 나에게 맞는 동아리를 추천 해드립니다." />
+                title="한림대 중앙 동아리 소개" 
+                about="한림대학교의 중앙동아리를 소개합니다." />
               </Link>
 
               <Link to="/ClubroomLocator">

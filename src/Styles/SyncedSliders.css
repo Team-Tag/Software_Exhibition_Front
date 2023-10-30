@@ -47,12 +47,14 @@
 }
 .club-text .club-name{
     width: 100%;
+    width: 100%;
     color: #fff;
     font-family: "Gmarket Sans TTF";
     font-weight: bold;
     text-decoration: none;
     font-size: 60px;
     margin: 0px;
+    
     
 }
 .club-text .club-title{
@@ -69,8 +71,10 @@
 
 }
 
+
 .club-info-wrap .club-img img{
     width: 600px;
+    height: 350px;
     height: 350px;
     background-color: greenyellow;
     border-radius: 15px;
