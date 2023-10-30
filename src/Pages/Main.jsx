@@ -2,13 +2,10 @@ import React from "react";
 import { useEffect, useState } from "react";
 import '../Styles/Main.css';
 import { Link } from 'react-router-dom';
-import main_model1 from '../media/main01_model.svg';
+import main_model1 from '../media/main01_model01.svg';
 import Footer from "../Components/Footer";
 import BoxMenu from "../Components/BoxMenu";
 import ScrollUp from "../Components/ScrollUp";
-
-
-
 
 function Main() {
   const [isTextVisible, setIsTextVisible] = useState(false);
@@ -70,11 +67,11 @@ function Main() {
               <div style={{opacity: (position -2400)/100,}} className="footprint11"></div>
               <div style={{opacity: (position -2450)/100,}} className="footprint12"></div>
               
-              <div style={{opacity: (position -2470)/100,}}className="model03-model01"></div>
+              <Link to = "/ClubQuiz">
+                <div style={{opacity: (position -2470)/100,}}className="model03-model01"></div>
+              </Link>
               <div style={{opacity: (position -1980)/100,}}className="model03-model02"></div>
               <div style={{opacity: (position -2300)/100,}}className="model03-model03"></div>
-              <div style={{opacity: (position -2480)/100,}}className="slide-box"></div>
-            
             </div>
             
           </section>

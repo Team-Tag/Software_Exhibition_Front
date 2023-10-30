@@ -148,15 +148,7 @@
     transform: translateX(10%) translateY(-66%);
     width: 800px;
     height: 800px;
-    background-image: url("../media/main03_model01.svg");
-}
-.slide-box{
-    position: relative;
-    transform: translateX(70%) translateY(-540%);
-    width: 400px;
-    height: 300px;
-    background-color: red;
-    
+    background-image: url("../media/main03_model01_1.svg");
 }
 .model03-model02{
     position: relative;

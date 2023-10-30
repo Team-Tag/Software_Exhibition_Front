@@ -91,6 +91,11 @@ class SyncedSliders extends Component {
           clubTitle : "음악의 광선, 음악의 미래를 밝히다.",
           clubImg :"/bestClub/X-Ray.jpg",
         },
+        {
+          clubName : "두레박",
+          clubTitle : "음악으로 마음을 두드리는 두레박",
+          clubImg :"/bestClub/dulebag.jpeg",
+        },
         // 체육분과
         {
           clubName : "공굴리기",
@@ -265,7 +270,7 @@ class SyncedSliders extends Component {
                 <img 
                 src={slide.clubImg} 
                 style={{
-                  width: "200px",
+                  width: "185px",
                   height: "150px",
                   borderRadius: "15px",
                 }}

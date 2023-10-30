@@ -83,10 +83,12 @@ function SimpleSlide({ category , categoryAbout ,slideData}) {
             봉사: "#DE4A36",
             종교: "#6A22A2",
         };
+        
         const boxColor = categoryColors[category] || "#888"; 
         return(
                 <div className="clubslide-wrap">
-                    <div className={`category-model ${category}-model`}></div>
+                    <div className={`category-model ${category}-model`} >
+                    </div>
                     <div className="clubslide-box" style={{ backgroundColor: boxColor }}>
                         <div className="clubslide-text">
                             <h1>{ category }</h1>

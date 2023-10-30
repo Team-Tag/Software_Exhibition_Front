@@ -1,21 +1,17 @@
 .ClubFinder_wrap{
-    /* margin-top:200px; */
     /* padding-top: 50px; */
     z-index: 99;
 }
 .ClubFinder_box1{
-
     margin: 0 auto;
     width: 900px;
     height: 600px;
     padding: 50px;
-
     background-image: url("../media/main03_model01.svg");
     position: flex;
     background-position:150px -50px ;
     background-size: contain;
-
-    background-size: 700px;
+    background-size: 700px 800px;
     background-repeat: no-repeat;
     
 }
@@ -34,13 +30,12 @@
     text-align: center;
 }
 .ClubFinder_box1 h2{
+    margin-top: 130px;
     font-size: 30px;
     color: rgb(243, 243, 243);
     text-align: center;
-    -webkit-text-stroke: 0.4px rgb(0, 0, 0);
-
+    /* -webkit-text-stroke: 0.4px rgb(0, 0, 0); */
 }
-
 #FindClub_btn{
     display: block;
     margin: 0 auto;
