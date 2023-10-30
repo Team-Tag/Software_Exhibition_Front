@@ -1,4 +1,18 @@
 .Unity_Back{
+
+    margin-top: 10px;
     text-align: center;
 
+}
+.loadingFont{
+    font-size: 50px;
+    font-family: "Gmarket Sans TTF";
+    font-weight: 600;
+    text-decoration: none;
+}
+.gameFont{
+    font-size: 20px;
+    font-family: "Gmarket Sans TTF";
+    font-weight: 600;
+    text-decoration: none;
 }

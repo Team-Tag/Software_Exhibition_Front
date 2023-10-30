@@ -1,8 +1,7 @@
 .ClubFinder_wrap{
     /* margin-top:200px; */
-    padding-top: 50px;
+    /* padding-top: 50px; */
     z-index: 99;
-
 }
 .ClubFinder_box1{
 
@@ -10,10 +9,12 @@
     width: 900px;
     height: 600px;
     padding: 50px;
-    top: -100px;
 
-    background-image: url("../media/madoung_finder.png");
-    background-position:100px -100px;
+    background-image: url("../media/main03_model01.svg");
+    position: flex;
+    background-position:150px -50px ;
+    background-size: contain;
+
     background-size: 700px;
     background-repeat: no-repeat;
     
@@ -24,12 +25,12 @@
     font-weight: 600;
     text-decoration: none;
     text-align: center;
-
 }
 .ClubFinder_box1 h2{
     font-size: 30px;
     color: rgb(243, 243, 243);
     text-align: center;
+    -webkit-text-stroke: 0.4px rgb(0, 0, 0);
 
 }
 
@@ -41,7 +42,7 @@
     height: 100px;
     line-height: 100px;
     background-color: rgba(255, 255, 255, 0.707);
-    border: solid yellow 3px;
+    border: solid rgb(237, 237, 237) 3px;
     border-radius: 20px;
     color: black;
     font-size: 50px;
@@ -74,6 +75,11 @@
     font-weight: 600;
     text-decoration: none;
     text-align: center;
+}
+.Qustion_head{
+    font-family: "Gmarket Sans TTF";
+    font-weight: 700;
+    text-decoration: none;
 }
 .Question_box{
     margin: 0 auto; 
@@ -130,4 +136,25 @@ ul .selected{
 .ProgressBar{
     margin: 0 auto;
     width: 60vw;
+}
+.bestClub{
+    padding: 20px;
+    width: 35%;
+    height: 70%;
+    background-color: #d2d3de;
+    border-radius: 7px;
+}
+.bestClub h1{
+    font-family: "Gmarket Sans TTF";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../Fonts/GmarketSansTTFMedium.woff") format("woff");
+}
+
+.bestClub_imagebox{
+    margin: 0 auto;
+    width: 70%;
+    height: 200px;
+    /* background-color: #6e7398; */
+    border-radius: 13px;
 }

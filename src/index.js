@@ -6,11 +6,11 @@ import "slick-carousel/slick/slick-theme.css"; // Slick Carousel 테마 스타�
 import './index.css';
 import './Styles/Font.css';
 import App from './App';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App/>
-  </React.StrictMode>
+    <React.StrictMode>
+        <App/>
+    </React.StrictMode>
+  
 );
 
