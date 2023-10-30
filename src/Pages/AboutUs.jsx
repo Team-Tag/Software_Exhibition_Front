@@ -18,7 +18,7 @@ function AboutUs() {
       backColor : "#E4D339",
       name : "21학번 김대성",
       major : "콘텐츠IT전공",
-      role : "프론트 쌉고수, UI/UX 디자이너",
+      role : "프론트 쌉고수",
     },
     {
       imageUrl : `${menber02}`,
@@ -92,6 +92,7 @@ function AboutUs() {
           <div className="aboutUs-section2">
             <div className="title-tag">
               <p>Member Intro</p>
+              
             </div>
             <div className="aboutUs-head2">
               <p>멤버 소개</p>

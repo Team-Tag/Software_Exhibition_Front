@@ -4,17 +4,17 @@ import './App.css';
 import './Styles/Header.css';
 import Header from './Components/Header';
 import Routing from './Routing';
+import ScrollToTop from './Components/ScrollToTop';
 function App() {
   const [scrollDirection, setScrollDirection] = useState('none');//스크롤 초기 상태 
   const [prevScrollY, setPrevScrollY] = useState(0); // 이전 스크롤 위치를 저장
-  // const [dataFromChild, setDataFromChild] = useState(false);
-  // const handleDataFromChild = (data) => {
-  //   setDataFromChild(data);
-  // }
+  const [isMenuChecked, setIsMenuChecked] = useState(false);
+  
   useEffect(() => {
     // 스크롤 이벤트 리스너 추가
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
+
       //if (위치가 top : 0이라면 none상태입니다.) 초기 상태를 관리 하기 위해 넣어줌
       //else if(만약에 기존 값과 스크롤 이벤트 발생시에 값이 기존 값보다 낮다면 down)
       //else(그렇치 않다면 up이 됩니다.)
@@ -25,6 +25,8 @@ function App() {
       } else if (currentScrollY > prevScrollY) {
         if (scrollDirection !== 'down') {
           setScrollDirection('down');
+          setIsMenuChecked(false);
+          console.log(`scroll is ${isMenuChecked}`);
           console.log("down");
         }
       } else {
@@ -33,6 +35,7 @@ function App() {
           console.log("up");
         }
       }
+
       // 현재 스크롤 위치를 prevScrollY 상태에 저장
       setPrevScrollY(currentScrollY);
     };
@@ -48,12 +51,13 @@ function App() {
   // 스크롤 방향에 따라 스타일 변경
   //down인 경우 scroll-down 그렇지 않은 경우는 up
   const headerClasses = `header ${scrollDirection === 'down' ? 'scroll-down' : 'scroll-up'}`;
-  // console.log(dataFromChild);
+
   return (
     <BrowserRouter>
       <div className="App">
         {/* Header의 props에 headerClasses를 매개 변수로 보냄 */}
-        <Header headerClassName={headerClasses}/>
+        <ScrollToTop/>
+        <Header headerClassName={headerClasses} isMenuChecked={isMenuChecked} handleMenuIconChange={setIsMenuChecked}/>
         <Routing />
       </div>
     </BrowserRouter>

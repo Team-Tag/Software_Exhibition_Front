@@ -10,10 +10,11 @@ import {faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 
 function SimpleSlide({ category , categoryAbout ,slideData}) {
         // 슬라이드 세팅
+        const [slidesToShow, setSlidesToShow] = useState(3); // 초기값은 더 큰 화면을 위해 3으로 설정
         const settingsCategory = {
             infinite: true,
             speed: 500,
-            slidesToShow: 3,
+            slidesToShow, //상태 관리
             slidesToScroll: 1,
             focusOnSelect: true,
             arrows: false,
@@ -26,6 +27,8 @@ function SimpleSlide({ category , categoryAbout ,slideData}) {
         const [modalContent, setModalContent] = useState("");
         const modalBackground = useRef();
         useEffect(() => {
+            //모달 상태에 따른 스타일 적용
+            
             if (modalOpen) {
               // 모달이 열렸을 때 스크롤 비활성화
               document.body.style.overflow = 'hidden';
@@ -33,17 +36,33 @@ function SimpleSlide({ category , categoryAbout ,slideData}) {
               // 모달이 닫혔을 때 스크롤 활성화
               document.body.style.overflow = 'auto';
             }
-          }, [modalOpen]);
+            
 
-        const handleOpenModal = (content, slideData, slideKey) => {
-            axios.get(`/api/getSlideContent/${category}/${slideKey}`)
+            //화면이 768px 이하면 slideTo
+            const updateSlidesToShow = () => {
+                if (window.innerWidth <= 768) {
+                  setSlidesToShow(1); // 768px 이하 화면에서는 한 번에 한 슬라이드만 보이도록 설정
+                } else {
+                  setSlidesToShow(3); // 더 큰 화면에서는 한 번에 세 개의 슬라이드를 보이도록 설정
+                }
+              };
+          
+              updateSlidesToShow();
+          
+              window.addEventListener("resize", updateSlidesToShow);
+          
+              return () => {
+                window.removeEventListener("resize", updateSlidesToShow);
+              };
+            }, []);
+
+        const handleOpenModal = (clubName) => {
+            axios.get(`/api/getSlideContent/${clubName}`)
             .then(response => {
                 setModalContent(response.data);
                 
             })
             .catch(error => {
-                console.log(`분과 : ${category}`);
-                console.log(`key값 : ${slideKey}`);
                 console.error('슬라이드 내용을 가져오는 중 오류 발생:', error);
 
             });
@@ -76,14 +95,13 @@ function SimpleSlide({ category , categoryAbout ,slideData}) {
                         <div className="clubslide-slide">
                             <Slider {...settingsCategory}>
                                 {slideData.map((slide, index) => (
-                                <div className="clubslide-slieCard" key={index} onClick={() => handleOpenModal(slide.content,slideData, index)}>
+                                <div className="clubslide-slieCard" key={index} onClick={() => handleOpenModal(slide.title)}>
                                     <div className="clubslide-slieCard-img">
-                                    <img src={slide.imageSrc} />
+                                        <img src={slide.imageSrc} alt="동아리사진"/>
                                     </div>
                                     <div className="clubslide-slieCard-text">
                                     <h1>{slide.title}</h1>
                                     <p>{slide.content}</p>
-                                    <p>{index}</p>
                                     </div>
                                 </div>
                                 ))}
@@ -124,7 +142,7 @@ function SimpleSlide({ category , categoryAbout ,slideData}) {
                                     <h2>회비</h2>
                                     <p>{modalContent.membershipFee}</p>
                                     <h2>위치</h2>
-                                    <p>{modalContent.location}</p>
+                                    <p>{modalContent.clubLocation}</p>
                                 </div> 
                                 </div>
                             </div>

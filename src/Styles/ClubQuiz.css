@@ -19,6 +19,13 @@
     background-repeat: no-repeat;
     
 }
+.ClubFinder_head{
+    font-size: 80px;
+    font-family: "Gmarket Sans TTF";
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
 .ClubFinder_box1 h1{
     font-size: 80px;
     font-family: "Gmarket Sans TTF";
@@ -141,8 +148,11 @@ ul .selected{
     padding: 20px;
     width: 35%;
     height: 70%;
-    background-color: #d2d3de;
-    border-radius: 7px;
+    background-color: #173CB5;
+    border-radius: 10px;
+    color: white;
+    /* border: black 5px solid;  */
+    
 }
 .bestClub h1{
     font-family: "Gmarket Sans TTF";
@@ -156,5 +166,6 @@ ul .selected{
     width: 70%;
     height: 200px;
     /* background-color: #6e7398; */
-    border-radius: 13px;
+    border-radius: 10px;
+    border: 3px solid white;
 }

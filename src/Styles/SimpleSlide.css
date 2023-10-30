@@ -25,22 +25,56 @@
     font-weight: 600;
     text-decoration: none;
     color : white;
-    margin: 50px 20px;
-
+    margin: 0% 5%;
+    width: 60%;
+    height: 100%;
 }
+/* 기본 스타일 */
 .clubslide-text h1{
     font-size: 50px;
-    width: 200px;
+    
 }
 .clubslide-text p{
     font-size: 20px;
+}
+@media screen and (max-width : 961px){
+    .clubslide-text h1{
+        font-size: 40px;
+    }
+    .clubslide-text p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 768px){
+    .clubslide-text h1{
+        font-size: 35px;
+    }
+    .clubslide-text p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 673px){
+    .clubslide-text h1{
+        font-size: 30px;
+    }
+    .clubslide-text p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width : 576px){
+    .clubslide-text h1{
+        font-size: 25px;
+    }
+    .clubslide-text p{
+        font-size: 10px;
+    }
 }
 .clubslide-slieCard{
     height: 400px;
 }
 .clubslide-slieCard-img{
-    width: 300px;
-    height: 200px;
+    width: 80%;
+    height: 60%;
     margin: 0 auto;
 }
 .clubslide-slieCard-img img{

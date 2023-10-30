@@ -14,7 +14,7 @@ function Main() {
   const [isTextVisible, setIsTextVisible] = useState(false);
   const [position, setPosition] = useState(0);
   function onScroll(){
-    console.log(window.scrollY);
+    // console.log(window.scrollY);
     setPosition(window.scrollY);
   }
 
@@ -80,7 +80,7 @@ function Main() {
           </section>
           <section className="main04">
             <div className="boxmenu-wrap" style={{opacity: (position -3000)/100,}}>
-              <Link to="/ClubroomLocator">
+              <Link to="/ClubFinder">
                 <BoxMenu 
                 color="white" 
                 width = "255px"
@@ -88,7 +88,7 @@ function Main() {
                 about="준비된 질문을 통해 나에게 맞는 동아리를 추천 해드립니다." />
               </Link>
 
-              <Link to="/ClubFinder">
+              <Link to="/ClubroomLocator">
                 <BoxMenu 
                 width = "200px"
                 color= "yellow" 

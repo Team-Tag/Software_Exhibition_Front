@@ -192,7 +192,7 @@ const ClubQuiz=()=>{
     return(
         <div className="ClubFinder_wrap" >
             <div className="ClubFinder_box1">
-                <h1>내게 맞는 동아리 찾기</h1>
+                <pre className='ClubFinder_head'>내게 맞는          동아리 찾기</pre>
                 <h2>48개의 동아리 중 내게 맞는 동아리를 찾아보세요</h2>
                 {/* <div  id="FindClub_btn"></div>             */}
                 <Link id="FindClub_btn"to="Question" smooth={true} duration={700}>START</Link>
