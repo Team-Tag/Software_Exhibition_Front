@@ -28,6 +28,7 @@ function Header({headerClassName , isMenuChecked, handleMenuIconChange}) {
             <Link className="header-menu-item" to="/AboutUs"><p>만든이들</p></Link>
             <Link className="header-menu-item" to="/ClubInfo"><p>동아리 소개</p></Link>
             <Link className="header-menu-item" to="/ClubroomLocator"><p>동방 찾기</p></Link>
+            <Link className="header-menu-item" to="/Admin"><p>관</p></Link>
             <Link className="header-menu-item2" to="/ClubQuiz"><p>내게 맞는 동아리 찾기</p></Link>
         </div>
         <div className="menubar">
@@ -42,6 +43,7 @@ function Header({headerClassName , isMenuChecked, handleMenuIconChange}) {
               <li><Link className="side-menu-item" to="/AboutUs"><p>만든이들</p></Link></li>
               <li><Link className="side-menu-item" to="/ClubInfo"><p>동아리 소개</p></Link></li>
               <li><Link className="side-menu-item" to="/ClubroomLocator"><p>동방 찾기</p></Link></li>
+              <li><Link className="side-menu-item"to="/Admin"><p>관리자 페이지</p></Link></li>
               <li><Link className="side-menu-item" to="/ClubQuiz"><p>내게 맞는 동아리 찾기</p></Link></li>
             </ul>
           </div>
