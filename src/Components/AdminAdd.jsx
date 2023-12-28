@@ -2,6 +2,7 @@ import { useState } from 'react';
 import '../Styles/AdminAdd.css';
 import axios from 'axios';
 //새로운 workspace
+//12.28일 hoon branch에 new commit추가
 const AdminAdd = () => {
     const [isSaved,setSaved]=useState(false);
     const [department, setdepartment] = useState('');
