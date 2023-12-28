@@ -1,0 +1,127 @@
+.AdminAdd{
+    height: 1500px;
+    background-color: rgb(235, 235, 235);
+    color: black;
+    text-align: center;
+    font-family: "Gmarket Sans TTF";
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+
+.inputBox_1{
+    margin: 0 auto;
+    width: 40vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 246, 246);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 
+    0 6px 6px rgba(0,0,0,0.23);
+}
+.input_1{
+    width: 70%;
+    height: 70%;
+    margin-top: -60px;
+}
+
+.imageView{
+    width: 65%;
+    height: 75%;
+    background-color: rgb(217, 217, 232);
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+.btn_upload{
+    border: 3px solid #293277 ;
+    fill: #293277;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items:; */
+}
+#file{
+    display: none;
+}
+.inputBox_1_right{
+    height: 100%;
+    width: 50%;
+    /* background-color: #9fa0af; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.selectBox{
+    border: 2px solid #b6b6b6 ;
+    border-radius: 10px;
+
+}
+
+.inputBox{
+    margin: 0 auto;
+    width: 40vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 
+    0 6px 6px rgba(0,0,0,0.23);
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.inputBox_bundle{
+    width: 100%;
+    height: 100%;
+    /* background-color: #293277; */
+}
+/* .inputBox_head{
+    margin-top: 0px;
+} */
+h1{
+    margin: 0px;
+    padding: 20px;
+}
+h3{
+    display: block;
+    margin: 20px;
+    margin-left: 40px;
+}
+input {
+    margin-left: 20px;
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    border: 2px solid #b6b6b6 ;
+    border-radius: 10px;
+    padding: 3px;
+}
+textarea{
+    margin-left: 20px;
+    width: 90%;
+    height: 70px;
+    line-height: 30px;
+    border: 2px solid #b6b6b6 ;
+    border-radius: 10px;
+    padding: 3px;
+}
+.allPush{
+    margin-top: 10px;
+    font-size: 20px;
+    border: 3px solid #1b2255 ;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+.allPush:hover{
+    background-color: rgb(135, 135, 135);
+}

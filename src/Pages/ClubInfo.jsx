@@ -44,7 +44,7 @@ function ClubInfo() {
       content: "연극 동아리",
     },
     {
-      imageSrc: "/preparing_Image.png",
+      imageSrc: "/musicClub/musicClub11.jpg",
       title: "두레박",
       content: "버스킹 동아리",
     },
@@ -63,6 +63,7 @@ function ClubInfo() {
       title: "X-Ray",
       content: "밴드 동아리",
     },
+
   ]
   const religionClubs = [
     {
@@ -92,7 +93,7 @@ function ClubInfo() {
     },
     {
       imageSrc: "/religionClub/religionClub03.jpeg",
-      title: "카톨릭학생회",
+      title: "가톨릭학생회",
       content: "천주교 동아리",
     },
   ]
@@ -127,9 +128,8 @@ function ClubInfo() {
       title: "CHAOS",
       content: "스터디 동아리",
     },
-    
-
   ]
+
   const volunteerClubs =[
     {
       imageSrc:"/volunteerClub/volunteerClub01.png",

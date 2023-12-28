@@ -1,0 +1,77 @@
+.Admin{
+    height: 4000px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: "Gmarket Sans TTF";
+    font-weight: 600;
+ 
+}
+.Admin_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Admin_clubbox{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 14vh;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid ;
+}
+.selectBox{
+    padding: 3px;
+    border: 3px solid yellow;
+    border-radius: 20px;
+}
+#department{
+    padding: 3px;
+    width: 5vw;
+    background-color: orange;
+    border-radius: 15px;
+}
+#title{
+    padding: 10px;
+    font-size: 25px;
+}
+#data{
+margin-left: 50vw;
+}
+.iconBox{
+    display: flex;
+    justify-content: end;
+}
+.icon{
+    width: 22px;
+    height: 22px;
+    margin: 0px 4px 0px 4px;
+    /* fill: red; */
+}
+.icon:first-child:hover{
+    fill: rgb(255, 0, 0);
+}
+#secondicon:hover{
+    fill: blue;
+}
+.pagination{
+    padding: 0px;
+}
+.page_item{
+    display: inline-block;
+    margin: 0 auto;
+    margin-right: 10px;
+    padding: 0px;
+}
+.page_button{
+    height: 25px;
+    line-height: 25px;
+    width: 25px;
+    border-radius: 7px;
+    border: 2px solid blue;
+}
+.page_button:hover{
+    background-color: rgb(198, 199, 200);
+}

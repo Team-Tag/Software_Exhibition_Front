@@ -100,5 +100,23 @@
 .category-model{
     width: 500px;
     height: 400px;
-    background-image: url("../media/main03_model2.png");
+    /* background-image: url("../media/main03_model2.png"); */
+}
+.공연-model {
+    background-image: url("../media/ClubInfo_01.svg");
+}
+.체육-model {
+    background-image: url("../media/ClubInfo_02.svg");
+}
+.취미예술-model {
+    background-image: url("../media/ClubInfo_03.svg");
+}
+.학술-model {
+    background-image: url("../media/ClubInfo_04.svg");
+}
+.봉사-model {
+    background-image: url("../media/ClubInfo_05.svg");
+}
+.종교-model {
+    background-image: url("../media/ClubInfo_06.svg");
 }

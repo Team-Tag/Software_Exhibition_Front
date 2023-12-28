@@ -2,6 +2,7 @@ import React from "react";
 
 const musicClubs = [
   {//15 //05 //잠바
+      //sdfsdf
       count: 1,
       imageSrc: "/musicClub/musicClub01.jpg",
       title: "봉현회",

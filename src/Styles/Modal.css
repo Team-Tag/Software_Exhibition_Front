@@ -49,6 +49,7 @@
     border-radius: 25px 0px 0px 25px;
     background-color: #173CB5;
     overflow: scroll;
+    overflow: scroll;
 }
 .department-name{
     width: 100px;
@@ -62,6 +63,7 @@
     font-weight: 600;
     text-decoration: none;
     font-size: 20px;
+    
     
 }
 .club-name{
@@ -92,10 +94,12 @@
     padding: 10px 20px;
 }
 
+
 .modal-content-wrap{
     text-align: left;
     padding: 0px 20px;
     white-space: pre-wrap;
+    
 }
 .modal-content-wrap>h2{
     color : #FFE600;

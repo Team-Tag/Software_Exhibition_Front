@@ -21,7 +21,7 @@ class SyncedSliders extends Component {
     render() {
       const settingsMain = {
         infinite: true,
-        speed: 500,
+        speed: 300,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
@@ -30,7 +30,7 @@ class SyncedSliders extends Component {
       const settingsThumbs = {
         
         infinite: true,
-        speed: 500,
+        speed: 300,
         slidesToShow: 7,
         slidesToScroll: 1,
         centerMode: true,
@@ -90,6 +90,11 @@ class SyncedSliders extends Component {
           clubName : "X-Ray",
           clubTitle : "음악의 광선, 음악의 미래를 밝히다.",
           clubImg :"/bestClub/X-Ray.jpg",
+        },
+        {
+          clubName : "두레박",
+          clubTitle : "음악으로 마음을 두드리는 두레박",
+          clubImg :"/bestClub/dulebag.jpeg",
         },
         // 체육분과
         {
@@ -265,7 +270,7 @@ class SyncedSliders extends Component {
                 <img 
                 src={slide.clubImg} 
                 style={{
-                  width: "200px",
+                  width: "185px",
                   height: "150px",
                   borderRadius: "15px",
                 }}
