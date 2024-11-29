@@ -1,15 +1,11 @@
 # 림딩동 (Club Discovery Platform) 🎓
+<img width="541" alt="로고" src="https://github.com/user-attachments/assets/8e9826e2-40d2-4122-8c97-0b4e23f82b47">
 
 ## 🌟 Project Overview
 
 림딩동은 학교 중앙동아리를 효과적으로 홍보하고 학생들에게 동아리 정보를 제공하기 위해 개발된 웹 플랫폼입니다.
 
 ## 👥 Team Composition
-
-- **Frontend Team**: 2 members
-- **Backend Team**: 2 members
-- **Game Team**: 1 member
-- **Total**: 4
 
 | FE | FE | BE | BE | GAME | 
 | :---: | :---: | :---: | :---: | :---: |
@@ -50,13 +46,32 @@
 
 ## 🎨 Main Pages
 
-| 페이지 | 설명 |
-|--------|------|
 | 메인 페이지 | 웹사이트 기능 소개 및 애니메이션 |
+| :---: | :---: |
+| |
+
+
 | 만든이들 페이지 | 개발 배경 및 개발자 소개 |
+| :---: | :---: |
+| | 
+
 | 동아리 소개 | 중앙동아리 분과별 정보 |
+| :---: | :---: |
+| <img width="1680" alt="동아리 소개 " src="https://github.com/user-attachments/assets/ac4c10dc-691d-4fb1-b716-1aff8ef7f1a6"> | <img width="1680" alt="동아리 소개(2)" src="https://github.com/user-attachments/assets/264a9578-dd6a-4a86-ade9-fbda112b1676"> | 
+
+
+
 | 동아리방 찾기 | WebGL 기반 캠퍼스 탐색 |
+| :---: | :---: |
+| <img width="1680" alt="동아리방 찾기 게임" src="https://github.com/user-attachments/assets/a0cb13ed-9859-4a95-b8a9-e1cb6eff8ec4"> | 
+
+
 | 내게 맞는 동아리 찾기 | 개인 맞춤형 동아리 추천 |
+| :---: | :---: |
+|<img width="1680" alt="동아리 추천" src="https://github.com/user-attachments/assets/b0ca6ac2-83cc-497e-a167-9b3021e20486">
+ | <img width="1680" alt="동아리 추천(2)" src="https://github.com/user-attachments/assets/cba38926-4909-4f06-adb9-85283e129e67">
+| <img width="1680" alt="동아리 추천3" src="https://github.com/user-attachments/assets/79a088a9-4d15-4173-9a4e-57a9db49dded"> | 
+
 
 ## 💡 Key Learning Points
 
