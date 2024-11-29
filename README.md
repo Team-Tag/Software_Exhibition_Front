@@ -46,32 +46,32 @@
 
 ## 🎨 Main Pages
 
+I'll modify the markdown to create a side-by-side layout for images using a table format:
+
+# 동아리 웹사이트 프로젝트 소개
+
+## 주요 페이지 스크린샷
+
+### 메인 페이지 & 웹사이트 기능 소개
 | 메인 페이지 | 웹사이트 기능 소개 및 애니메이션 |
 | :---: | :---: |
-| |
+| ![메인 페이지](https://github.com/user-attachments/assets/b98559df-7aa1-4b73-bcfc-056189c021e8) | ![스크린샷 2024-11-29 오후 3 48 01](https://github.com/user-attachments/assets/ed14f2e6-440a-4e05-a2fa-7297fb910013)
 
 
+### 만든이들 페이지 & 개발 배경
 | 만든이들 페이지 | 개발 배경 및 개발자 소개 |
 | :---: | :---: |
-| | 
+| ![만든이들 페이지](https://github.com/user-attachments/assets/3248e6bd-561a-497a-bc2b-73bc24d00ef0) | ![개발 배경](https://github.com/user-attachments/assets/2f52f0dd-ecf8-4b75-b90c-ee789be0c1e7) |
 
-| 동아리 소개 | 중앙동아리 분과별 정보 |
+### 동아리 소개
+| 동아리 소개 1 | 동아리 소개 2 |
 | :---: | :---: |
-| <img width="1680" alt="동아리 소개 " src="https://github.com/user-attachments/assets/ac4c10dc-691d-4fb1-b716-1aff8ef7f1a6"> | <img width="1680" alt="동아리 소개(2)" src="https://github.com/user-attachments/assets/264a9578-dd6a-4a86-ade9-fbda112b1676"> | 
+| ![동아리 소개 1](https://github.com/user-attachments/assets/ac4c10dc-691d-4fb1-b716-1aff8ef7f1a6) | ![동아리 소개 2](https://github.com/user-attachments/assets/264a9578-dd6a-4a86-ade9-fbda112b1676) |
 
-
-
-| 동아리방 찾기 | WebGL 기반 캠퍼스 탐색 |
-| :---: | :---: |
-| <img width="1680" alt="동아리방 찾기 게임" src="https://github.com/user-attachments/assets/a0cb13ed-9859-4a95-b8a9-e1cb6eff8ec4"> | 
-
-
-| 내게 맞는 동아리 찾기 | 개인 맞춤형 동아리 추천 |
-| :---: | :---: |
-|<img width="1680" alt="동아리 추천" src="https://github.com/user-attachments/assets/b0ca6ac2-83cc-497e-a167-9b3021e20486">
- | <img width="1680" alt="동아리 추천(2)" src="https://github.com/user-attachments/assets/cba38926-4909-4f06-adb9-85283e129e67">
-| <img width="1680" alt="동아리 추천3" src="https://github.com/user-attachments/assets/79a088a9-4d15-4173-9a4e-57a9db49dded"> | 
-
+### 내게 맞는 동아리 찾기
+| 동아리 추천 1 | 동아리 추천 2 | 동아리 추천 3 |
+| :---: | :---: | :---: |
+| ![동아리 추천 1](https://github.com/user-attachments/assets/78c6a387-5b1b-421c-88f0-841a998440f4)| ![동아리 추천 2](https://github.com/user-attachments/assets/cba38926-4909-4f06-adb9-85283e129e67) | ![동아리 추천 3](https://github.com/user-attachments/assets/79a088a9-4d15-4173-9a4e-57a9db49dded) |
 
 ## 💡 Key Learning Points
 
