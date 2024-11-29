@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# 림딩동 (Club Discovery Platform) 🎓
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🌟 Project Overview
 
-## Available Scripts
+림딩동은 학교 중앙동아리를 효과적으로 홍보하고 학생들에게 동아리 정보를 제공하기 위해 개발된 웹 플랫폼입니다.
 
-In the project directory, you can run:
+## 👥 Team Composition
 
-### `npm start`
+- **Frontend Team**: 2 members
+- **Backend Team**: 2 members
+- **Game Team**: 1 member
+- **Total**: 4
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| FE | FE | BE | BE | GAME | 
+| :---: | :---: | :---: | :---: | :---: |
+| 김대성 | 노기훈 | 김선우 | 지우림 | 최예찬 |
+|  <img width="130px" src="https://avatars.githubusercontent.com/u/131854855?v=4" /> |  <img width="130px" src="https://avatars.githubusercontent.com/u/66203019?v=4" />  | <img width="130px" src="https://avatars.githubusercontent.com/u/114386406?v=4" />  |  <img width="130px" src="https://avatars.githubusercontent.com/u/78469127?v=4" /> | <img width="130px" src="https://avatars.githubusercontent.com/u/75158889?v=4" /> | 
+| [@KimMaru](https://github.com/Kimxxunu) | [@Nohgh](https://github.com/Nohgh) | [@Kimxxunu](https://github.com/Kimxxunu) | [@jiurim](https://github.com/jiurim) | [@Yechan Choi](https://github.com/Mellow1213) | 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 🎯 Project Motivation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+기존 학교 동아리 페이지의 관리 부족과 홍보의 어려움을 해결하기 위해 기획된 프로젝트입니다.
 
-### `npm run build`
+## 🛠 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)
+![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✨ Key Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. 동아리 소개 (Club Introduction)
+- 분과별 동아리 슬라이드
+- 클릭 시 상세 동아리 정보 제공
 
-### `npm run eject`
+### 2. 동아리 추천 페이지 (Club Recommendation)
+- 맞춤형 설문을 통한 동아리 추천 시스템
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3. 동아리방 찾기 (Club Room Finder)
+- WebGL 기반 인터랙티브 캠퍼스 맵
+- 동아리방 위치 및 정보 제공
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 4. 메인 페이지 (Main Page)
+- 다양한 애니메이션
+- 스크롤 이벤트 및 인터랙티브 디자인
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🎨 Main Pages
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| 페이지 | 설명 |
+|--------|------|
+| 메인 페이지 | 웹사이트 기능 소개 및 애니메이션 |
+| 만든이들 페이지 | 개발 배경 및 개발자 소개 |
+| 동아리 소개 | 중앙동아리 분과별 정보 |
+| 동아리방 찾기 | WebGL 기반 캠퍼스 탐색 |
+| 내게 맞는 동아리 찾기 | 개인 맞춤형 동아리 추천 |
 
-## Learn More
+## 💡 Key Learning Points
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- 동아리 정보 수집의 중요성
+- React 프레임워크 학습
+- 협업 및 프로젝트 관리 경험
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔗 Repository
 
-### Code Splitting
+[GitHub Repository](https://github.com/Team-Tag/Software_Exhibition_Front)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 💬 Retrospective
 
-### Analyzing the Bundle Size
+프로젝트를 통해 정보 수집, 기술적 도전, 그리고 협업의 중요성을 배웠습니다. React의 새로운 기술 스택을 익히고, 다양한 기술을 통합하여 사용자 친화적인 플랫폼을 개발하는 경험을 가졌습니다.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Made with ❤️ by Team Tag**
