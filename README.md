@@ -72,6 +72,11 @@ I'll modify the markdown to create a side-by-side layout for images using a tabl
 | 동아리 추천 1 | 동아리 추천 2 | 동아리 추천 3 |
 | :---: | :---: | :---: |
 | ![동아리 추천 1](https://github.com/user-attachments/assets/78c6a387-5b1b-421c-88f0-841a998440f4)| ![동아리 추천 2](https://github.com/user-attachments/assets/cba38926-4909-4f06-adb9-85283e129e67) | ![동아리 추천 3](https://github.com/user-attachments/assets/79a088a9-4d15-4173-9a4e-57a9db49dded) |
+### 동방 찾기
+| 동방 찾기 |
+| :---: |
+|![image](https://github.com/user-attachments/assets/e68c3936-6335-4f59-92c7-cc04994d4af5) |
+
 
 ## 💡 Key Learning Points
 
